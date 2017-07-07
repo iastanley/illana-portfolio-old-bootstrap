@@ -99,6 +99,23 @@ h2 {
   color: grey;
 }
 
+.navbar-toggle {
+  padding: 9px 0;
+  border: none;
+}
+
+.navbar-toggle .icon-bar {
+  width: 25px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: inherit;
+}
+
+.navbar-default .navbar-toggle:focus span, .navbar-default .navbar-toggle:hover span {
+    background-color: #fff;
+}
+
 #title-section {
   background: #222;
   color: #fff;
