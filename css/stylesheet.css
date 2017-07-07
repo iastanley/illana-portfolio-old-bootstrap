@@ -139,11 +139,10 @@ h2 {
   text-align: center;
 }
 
-#about-section .screenshot-placeholder {
-  height: 200px;
-  width: 200px;
+#about-section img {
+  height: 250px;
+  width: 250px;
   margin: auto;
-  background: blue;
   border-radius: 50%;
 }
 
@@ -196,6 +195,6 @@ footer p {
   }
 
   #about-section p {
-    width: 50%;
+    width: 90%;
   }
 }
