@@ -40,14 +40,6 @@ h2 {
   margin-right: 0;
 }
 
-.portfolio-item .screenshot-placeholder {
-  height: 400px;
-  width: 100%;
-  background: grey;
-  border-radius: 10px;
-  border: 1px solid grey;
-}
-
 .portfolio-item {
   margin-bottom: 50px;
 }
