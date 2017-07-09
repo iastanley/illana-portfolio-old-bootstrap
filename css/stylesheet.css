@@ -44,6 +44,10 @@ h2 {
   margin-bottom: 50px;
 }
 
+.portfolio-item img {
+  border-radius: 5px;
+}
+
 .portfolio-item p {
   text-align: justify;
 }
