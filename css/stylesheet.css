@@ -1,11 +1,12 @@
 body {
+  position: relative;
   background: #222;
   font-family: 'Inconsolata', monospace;
   font-size: 16px;
 }
 
 h1 {
-  font-size: 2.8em;
+  font-size: 2.5em;
 }
 
 h3 {
@@ -36,9 +37,10 @@ h2 {
     color: #aaa;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover {
     /*color: #fff;*/
     color: #59f8e8;
+    background-color: inherit;
 }
 
 .navbar-default .navbar-brand {
