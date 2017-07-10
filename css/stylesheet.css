@@ -187,6 +187,8 @@ footer p {
   text-align: center;
 }
 
+
+
 @media (min-width: 768px) {
   h1 {
     font-size: 4em;
@@ -207,6 +209,17 @@ footer p {
     padding-right: 15px;
   }
 
+  #title-section {
+    text-align: center;
+    padding-top: 25%;
+  }
+
+  #about-section p {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
   .portfolio-description {
     position: relative;
     height: 400px;
@@ -220,10 +233,5 @@ footer p {
 
   #title-section {
     text-align: left;
-    padding-top: 25%;
-  }
-
-  #about-section p {
-    width: 90%;
   }
 }
