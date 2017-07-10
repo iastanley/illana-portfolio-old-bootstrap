@@ -169,7 +169,7 @@ h2 {
 
 #about-section p {
   margin: 10px auto;
-  text-align: center;
+  text-align: justify;
 }
 
 #contact-section {
@@ -220,6 +220,7 @@ footer p {
 
   #about-section p {
     width: 90%;
+    text-align: center;
   }
 }
 
