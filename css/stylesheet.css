@@ -35,12 +35,16 @@ h2 {
 
 .navbar-default .navbar-nav>li>a {
     color: #aaa;
+    background-color: #222;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover {
-    /*color: #fff;*/
-    color: #59f8e8;
-    background-color: inherit;
+.navbar-default .navbar-nav>li>a:hover {
+  color: #59f8e8;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #59f8e8;
+  background-color: #222;
 }
 
 .navbar-default .navbar-brand {
